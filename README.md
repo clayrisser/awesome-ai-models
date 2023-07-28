@@ -1,12 +1,32 @@
-# awesome-ai-models
+# Awesome-ai-models
 
 > a curated list of awesome ai models
 
-# TOPOLOGY: Transformers
+# Environments
+
+- Server environment
+- Local Models
+
+## Server environment:
+
+- Localai
+- Transformers
+
+## Local environment Models:
+
+- Transformers.js
+- api
+- core-ml
+- windows-ml
+- ml-kit
+
+---
+
+# Localai
 
 ## NLP (Natural Language Processing)
 
-### baichuan-vicuna-7b.ggmlv3.q4_0
+### [&#x2713;] baichuan-vicuna-7b.ggmlv3.q4_0
 
 Baichuan-7B is an open-source large-scale pre-trained model developed by Baichuan Intelligent Technology. Based on the Transformer architecture, it is a model with 7 billion parameters trained on approximately 1.2 trillion tokens. It supports both Chinese and English, with a context window length of 4096.
 
@@ -22,11 +42,9 @@ curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/jso
 "temperature": 0.9
 }'
 
-- [ ] rest api
-- [ ] cpu
-- [ ] Completed
+- [&#x2713;] rest api
 
-## ggml-gpt4all-j
+### [&#x2713;] ggml-gpt4all-j
 
 A commercially licensable model based on GPT-J and trained by Nomic AI on the v0 GPT4All dataset.
 
@@ -44,40 +62,4 @@ curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/jso
 "temperature": 0.9
 }'
 
-- [ ] rest api
-- [ ] cpu
-- [ ] Completed
-
-# WEB TOPOLOGY
-
-## NLP (natural language processing)
-
-### Experience: Fill Mask
-
-#### Models: [ bert-base-uncased, roberta-base, roberta-large ]
-
-#### Description:
-
-an automatic process to generate inputs and labels from those texts. More precisely, it was pretrained with two objectives
-
-### Experience: Question Answering
-
-### Models: [ alphakavi22772023/bertQA, timpal0l/mdeberta-v3-base-squad2, LLukas22/all-MiniLM-L12-v2-qa-en ]
-
-#### Description:
-
-All these datasets were concatenated into a single dataset that we called frenchQA.
-
-### Experience: Sentence Similarity
-
-### Models:
-
-#### Description:
-
-## Computer Vision
-
-### Model name
-
-#### Experience:
-
-#### Description:
+- [&#x2713;] rest api
