@@ -30,9 +30,25 @@ curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/jso
 
 ## NLP (natural language processing)
 
-### Experience:
+### Experience: Fill Mask
 
-#### Models: []
+#### Models: [ bert-base-uncased, roberta-base, roberta-large ]
+
+#### Description:
+
+an automatic process to generate inputs and labels from those texts. More precisely, it was pretrained with two objectives
+
+### Experience: Question Answering
+
+### Models: [ alphakavi22772023/bertQA, timpal0l/mdeberta-v3-base-squad2, LLukas22/all-MiniLM-L12-v2-qa-en ]
+
+#### Description:
+
+All these datasets were concatenated into a single dataset that we called frenchQA.
+
+### Experience: Sentence Similarity
+
+### Models:
 
 #### Description:
 
