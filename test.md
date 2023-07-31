@@ -94,7 +94,7 @@ This model is intended for direct use as a sentiment analysis model for product 
 
 ### Experience:Text Generation
 
-### Models:[ gpt2, HuggingFaceH4/starchat-beta, gpt2-xl ]
+### Models:[ gpt2, HuggingFaceH4/starchat-beta, gpt2-xl, fxmarty/tiny-testing-gpt2-remote-code]
 
 #### Description:
 
@@ -122,11 +122,15 @@ A Named Entity Recognition model trained on a customer feedback data using Disti
 
 #### Description
 
-### Experience: Zero-Shot
+Our text-to-text framework allows us to use the same model, loss function, and hyperparameters on any NLP task
 
-### Models:[ ]
+### Experience:Zero-Shot Classification
+
+### Models:[ MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli, Narsil/deberta-large-mnli-zero-cls, HiTZ/A2T_RoBERTa_SMFA_TACRED-re]
 
 #### Description
+
+This model is the Multi-Genre Natural Language Inference (MNLI) fine-turned version of the uncased
 
 ## Computer Vision
 
