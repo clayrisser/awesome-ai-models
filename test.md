@@ -146,14 +146,46 @@ By pre-training the model, it learns an inner representation of images that can 
 
 SegFormer consists of a hierarchical Transformer encoder and a lightweight all-MLP decode head to achieve great results on semantic segmentation benchmarks such as ADE20K and Cityscapes
 
-### Experience:Image-to-Image
+### Experience:Object Detection
 
-### Models:[ ]
+### Models:[ facebook/detr-resnet-50, hustvl/yolos-tiny, facebook/detr-resnet-50-dc5, facebook/detr-resnet-101]
 
 #### Description
 
-### Model name
+The DETR model is an encoder-decoder transformer with a convolutional backbone. Two heads are added on top of the decoder outputs in order to perform object detection
 
-#### Experience:
+## Audio
+
+### Experience:Automatic Speech Recognition
+
+### Models:[ openai/whisper-tiny.en, m3hrdadfi/wav2vec2-large-xlsr-persian-v3, facebook/s2t-medium-librispeech-asr ]
 
 #### Description:
+
+S2T is an end-to-end sequence-to-sequence transformer model. It is trained with standard autoregressive cross-entropy loss and generates the transcripts autoregressively
+
+## Multimodal
+
+### Experience:Feature Extraction
+
+### Models:[ facebook/bart-large, cambridgeltl/SapBERT-from-PubMedBERT-fulltext, DeepPavlov/rubert-base-cased-sentence ]
+
+#### Description:
+
+The Vision Transformer (ViT) is a transformer encoder model (BERT-like). Images are presented to the model as a sequence of fixed-size patches
+
+### Experience:Image-to-Text
+
+### Models:[ nlpconnect/vit-gpt2-image-captioning, microsoft/trocr-small-printed, naver-clova-ix/donut-base-finetuned-cord-v1 ]
+
+#### Description:
+
+GIT is a Transformer decoder conditioned on both CLIP image tokens and text tokens
+
+### Experience:Zero-Shot Image Classification
+
+### Models:[ openai/clip-vit-large-patch14, laion/CLIP-ViT-H-14-laion2B-s32B-b79K, laion/CLIP-ViT-B-32-CommonPool.M.basic-s128M-b4K ]
+
+#### Description:
+
+Explore an alternative to ViT and ResNet (w/ AttentionPooling) CLIP models that scales well with model size and image resolution
