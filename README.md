@@ -180,12 +180,24 @@ Actually we already have the huggingface api sir. so we can use that api sir. th
 
 I mentioned the models below for each experience with related few working models sir.
 
+### Steps to call the api:
+
+url = `https://api-inference.huggingface.co/models/${model_name}` (ex. model_name = stabilityai/stable-diffusion-2-1)
+
+- curl https://api-inference.huggingface.co/models/bert-base-uncased -H "Content-Type: application.json" -d '{"inputs":"make a gun image for [MASK] ",""responseType":"blob" }'
+
 ## fill-mask:
 
     related models:
     - bert-base-uncased
     - roberta-base
     - roberta-large
+
+    - NOTE: THis model needs [MASK] token for the input sentence.
+
+ex-request:
+
+- curl https://api-inference.huggingface.co/models/bert-base-uncased -H "Content-Type: application.json" -d '{"inputs":"make a gun image for [MASK] ",""responseType":"blob" }'
 
 ## Question Answering:
 
@@ -305,3 +317,13 @@ I mentioned the models below for each experience with related few working models
     -  openai/clip-vit-large-patch14\
     - laion/CLIP-ViT-H-14-laion2B-s32B-b79K
     - laion/CLIP-ViT-B-32-CommonPool.M.basic-s128M-b4K
+
+## Text-to-image:
+
+    related models:
+    - stabilityai/stable-diffusion-2-1
+
+    ex-request:
+    - curl https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1 -H "Content-Type: application.json" -d '{"inputs":"make a  gun image  ",""responseType":"blob" }' --output output.jpg
+
+- [NOTE] ( --output output.jpg) is used to save the output image.
