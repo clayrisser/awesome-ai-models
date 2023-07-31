@@ -161,3 +161,147 @@ curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/jso
 }'
 
 - [&#x2713;] rest api
+
+# Local Environments:
+
+## Transformers.js (Web)
+
+# NLP (Natural Language Processing)
+
+- ## Experiences:
+
+- ### fill-mask
+
+#### STEPS:
+
+Sir, i had tested the transformers.js is not working sir it need configuration setup sir. and this transformers.js pipeline is also calling an appropriate model from the huggingface.co through the api sir.
+
+Actually we already have the huggingface api sir. so we can use that api sir. through passing model and context sir.
+
+I mentioned the models below for each experience with related few working models sir.
+
+## fill-mask:
+
+    related models:
+    - bert-base-uncased
+    - roberta-base
+    - roberta-large
+
+## Question Answering:
+
+    related models:
+    - alphakavi22772023/bertQA
+    - timpal0l/mdeberta-v3-base-squad2
+    - LLukas22/all-MiniLM-L12-v2-qa-en
+
+## Sentence Similarity:
+
+    related models:
+    - intfloat/e5-large-v2
+    - jinaai/jina-embedding-s-en-v1
+    - LLukas22/all-MiniLM-L12-v2-qa-en
+
+## Summarization:
+
+    related models:
+    - facebook/bart-large-cnn
+    - csebuetnlp/mT5_multilingual_XLSum
+    - slauw87/bart_summarisation
+
+## Text Classification:
+
+    related models:
+    - SamLowe/roberta-base-go_emotions
+    - ProsusAI/finbert
+    - nlptown/bert-base-multilingual-uncased-sentiment
+
+## Text Generation:
+
+    related models:
+    - gpt2
+    - HuggingFaceH4/starchat-beta-
+    - fxmarty/tiny-testing-gpt2-remote-code
+
+## Text-to-text:
+
+        related models:
+        - humarin/chatgpt_paraphraser_on_T5_base
+        - juierror/flan-t5-text2sql-with-schema
+        - voidful/context-only-question-generator
+
+## Token Classification:
+
+    related models:
+    - dslim/bert-base-NER
+    - DOOGLAK/01_SR_500v9_NER_Model_3Epochs_AUGMENTED
+    - DOOGLAK/Paraphrased_500v3_NER_Model_3Epochs_AUGMENTED
+
+## Translation:
+
+    related models:
+    - Helsinki-NLP/opus-mt-fi-mtt5-base
+    - Helsinki-NLP/opus-mt-fr-tvl
+    - Helsinki-NLP/opus-mt-eu-ru
+
+## Zero-Shot Classification:
+
+    related models:
+    - MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli
+    - Narsil/deberta-large-mnli-zero-cls
+    - HiTZ/A2T_RoBERTa_SMFA_TACRED-re
+
+# Computer Vision
+
+## Image Classification:
+
+    related models:
+    - google/vit-base-patch16-224
+    - microsoft/swinv2-tiny-patch4-window8-256
+    - victor/autotrain-satellite-image-classification-40975105875
+
+## Image Segmentation:
+
+    related models:
+    - mattmdjaga/segformer_b2_clothes
+    - nvidia/segformer-b3-finetuned-ade-512-512
+    - zoheb/mit-b5-finetuned-sidewalk-semantic
+
+## Object Detection:
+
+    related models:
+    - facebook/detr-resnet-50
+    - hustvl/yolos-tiny\
+    - facebook/detr-resnet-50-dc5
+    - facebook/detr-resnet-101
+
+# Audio
+
+## Automatic Speech Recognition:
+
+    related models:
+    - openai/whisper-tiny.en
+    - m3hrdadfi/wav2vec2-large-xlsr-persian-v3
+    - facebook/s2t-medium-librispeech-asr
+
+# Multi-modal
+
+## Feature Extraction:
+
+    related models:
+    - facebook/bart-large
+    - cambridgeltl/SapBERT-from-PubMedBERT-fulltext
+    - DeepPavlov/rubert-base-cased-sentence
+
+## Image-to-Text:
+
+    related models:
+    - nlpconnect/vit-gpt2-image-captioning
+    - microsoft/trocr-small-printed
+    - naver-clova-ix/donut-base-finetuned-cord-v1
+
+## Zero-Shot Image Classification:
+
+    related models:
+    -  openai/clip-vit-large-patch14\
+    - laion/CLIP-ViT-H-14-laion2B-s32B-b79K
+    - laion/CLIP-ViT-B-32-CommonPool.M.basic-s128M-b4K
