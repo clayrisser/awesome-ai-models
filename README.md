@@ -34,7 +34,7 @@ Baichuan-7B is an open-source large-scale pre-trained model developed by Baichua
 
 #### STEPS:
 
-Download the model-> WGET https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q4_0.bin -O models/baichuan-vicuna-7b.ggmlv3.q4_0
+Download the model-> wget https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q4_0.bin -O models/baichuan-vicuna-7b.ggmlv3.q4_0
 
 ##### request:
 
