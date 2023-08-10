@@ -164,27 +164,15 @@ curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/jso
 
 # Local Environments:
 
-## Transformers.js (Web)
-
-# NLP (Natural Language Processing)
-
-- ## Experiences:
-
-- ### fill-mask
-
-#### STEPS:
-
-Sir, i had tested the transformers.js is not working sir it need configuration setup sir. and this transformers.js pipeline is also calling an appropriate model from the huggingface.co through the api sir.
-
-Actually we already have the huggingface api sir. so we can use that api sir. through passing model and context sir.
-
-I mentioned the models below for each experience with related few working models sir.
+## api
 
 ### Steps to call the api:
 
 url = `https://api-inference.huggingface.co/models/${model_name}` (ex. model_name = stabilityai/stable-diffusion-2-1)
 
 - curl https://api-inference.huggingface.co/models/bert-base-uncased -H "Content-Type: application.json" -d '{"inputs":"make a gun image for [MASK] ",""responseType":"blob" }'
+
+I mentioned the models below for each experience with related few working models sir.
 
 ## fill-mask:
 
