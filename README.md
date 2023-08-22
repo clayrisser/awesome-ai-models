@@ -134,23 +134,6 @@ curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/jso
 
 #### STEPS:
 
-Download the model-> wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q4_0.bin -O models/open-llama-3b-q4_0
-
-##### request:
-
-curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/json" -d '{"model": "open-llama-3b-q4_0",
-"messages": [{"role": "user", "content": "i had a dream to control my"}],  
-"temperature": 0.9
-}'
-
-- [&#x2713;] rest api
-
-### [&#x2713;] open-llama-3b-q4_0
-
-    This model fills the sentence with the most appropriate word.
-
-#### STEPS:
-
 Download the model-> wget https://huggingface.co/SlyEcho/open_llama_7b_ggml/resolve/main/open-llama-7b-q4_0.bin -O models/open-llama-7b-q4_0
 
 ##### request:
