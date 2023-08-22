@@ -66,7 +66,7 @@ curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/jso
 
 - [&#x2713;] rest api
 
-### [&#x2713;] ggml-mpt-7b-base
+### [] ggml-mpt-7b-base
 
 MPT-7B is a decoder-style transformer pretrained from scratch on 1T tokens of English text and code. This model was trained by MosaicML.
 
