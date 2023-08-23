@@ -314,4 +314,8 @@ ex-request:
     ex-request:
     - curl https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1 -H "Content-Type: application.json" -d '{"inputs":"make a  gun image  ",""responseType":"blob" }' --output output.jpg
 
+    [X] TransformersJS WEB
+    [&#x2713;] Proxy
+    
+
 - [NOTE] ( --output output.jpg) is used to save the output image.
