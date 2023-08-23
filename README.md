@@ -187,6 +187,11 @@ ex-request:
 
 - curl https://api-inference.huggingface.co/models/bert-base-uncased -H "Content-Type: application.json" -d '{"inputs":"make a gun image for [MASK] ",""responseType":"blob" }'
 
+## Sentiment Analysis
+
+    related models:
+    - nlptown/bert-base-multilingual-uncased-sentiment
+
 ## Question Answering:
 
     related models:
