@@ -151,7 +151,7 @@ curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/jso
 
 #### STEPS:
 
-Download the model-> wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q4_0.bin -O models/open-llama-7b-q4_0
+Download the model-> wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q4_0.bin -O models/open-llama-3b-q4_0
 
 ##### request:
 
